@@ -59,7 +59,7 @@ In the UploadFile method, upload the file referenced by the fileData parameter t
 Expand this hint for guidance on uploading a file to the container.
 Save the StorageContext.cs file and leave it open for the next task.
 
-3.Implement the GetFileList method.
+## 3.Implement the GetFileList method.
 In the StorageContext.cs file, in the GetFileList method, create an instance of the List <BlobFileData> class, and then assign the instance to a variable named results.
 Expand this hint for guidance on creating the results variable.
 In the GetFileList method, create an instance of the BlobContainerClient class by using the connectionString field and the containerName parameter, and then assign the instance to a new variable named container.
@@ -86,7 +86,7 @@ The BlobFileData data structure is documented at the beginning of the StorageCon
 Blob files are accessed by using the Azure Storage REST API. 
 Displaying the files by using their URI takes advantage of the nature of REST APIs.
 
-4.Test the application
+## 4.Test the application
 Run the application, enter the connection string <storageAccountConnectionString> in the Storage Account Connection String textbox, select Test, and then review the results.
 Expand this hint for guidance on testing the application.
 If may take a couple minutes for the Storage Challenge test page to appear.
@@ -96,4 +96,4 @@ The following screenshot shows the expected results:The output of the test
 If you repeat the test after success, the Public Blob Upload will fail as the files already exist, but the Public Blob Download will succeed again.
 
 5. Summary
-Congratulations, you have completed the Access a Public Storage Container From an ASP.NET Web App challenge.
+Congratulations, 
